@@ -1,4 +1,4 @@
-# Tienda online Indexgrrrls
+# Indexgrrrls Online Shop
 
 This is an e-commerce site where you could purchase our company products.
 
@@ -7,8 +7,8 @@ This is an e-commerce site where you could purchase our company products.
 - [@veronikakoma](https://github.com/VeronikaKoma)
 - [@mintybubblegum](https://github.com/mintybubblegum)
 - [@Himorell](https://github.com/Himorell)
-- [@veronikakoma](https://github.com/VeronikaKoma)
-- [@veronikakoma](https://github.com/VeronikaKoma)
+- [@Uxoa](https://github.com/uxoa)
+- [@Zloln](https://github.com/ZLoln)
 
 ## Screenshots
 
