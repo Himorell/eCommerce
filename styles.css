@@ -1,0 +1,19 @@
+header {
+    width: 390px;
+    height: 116px;
+background-color:#974AAA;
+}
+
+
+/* Vector */
+.headerIcon { 
+    position: absolute;
+left: 9.69%;
+right: 85.2%;
+top: 45.69%;
+bottom: 40.52%;
+
+background: #FFFFFF;
+
+}
+
