@@ -1,19 +1,39 @@
+/*Affects the whole document*/
+a {
+    text-decoration: none;
+}
+
+/*Here starts the header*/
 header {
     width: 390px;
     height: 116px;
-background-color:#974AAA;
+    background-color:#974AAA;
+    margin-left: 12 px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+
+ul {
+    list-style-type: none;
 }
 
+.headerIcons {
+    grid-row-start: 3;
+    }
 
-/* Vector */
-.headerIcon { 
-    position: absolute;
-left: 9.69%;
-right: 85.2%;
-top: 45.69%;
-bottom: 40.52%;
+.headerMenu {
+    max-width: 390px;
+    grid-row-start: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    }
 
-background: #FFFFFF;
-
+.headerMenu a:-webkit-any-link {
+    color: white;
 }
-
