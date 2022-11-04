@@ -17,6 +17,8 @@ This is an e-commerce site where you could purchase our company products.
 - Html 5
 - CSS 3
 - Java Script
+- Bootstrap
+- Tailwind
 
 ## Test
 
