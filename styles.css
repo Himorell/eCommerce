@@ -5,6 +5,15 @@
         font-weight: bold;
         font-size:12px!important;
     }
+
+    h2 {
+        font-size: 60px!important;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 /*Affects the whole document*/
@@ -85,7 +94,31 @@ ul.headerMenu li a{
     font-size:16px;
 }
 
+h2 {
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 100px;
+    -webkit-text-stroke: 0.1px black;
+    font-weight: bold;
+}
 
+/*Here starts the index*/
+.newCollection {
+    background-image: url("./images/newCollection.PNG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100% 100%;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Here starts the footer*/
 footer {
     background-image: url("./images/bgFooter.png");
     background-repeat: no-repeat;
