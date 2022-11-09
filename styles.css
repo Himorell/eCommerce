@@ -131,7 +131,6 @@ ul.headerMenu li a{
 
 /*Here starts the index*/
 .newCollection {
-    border: 2px solid red;
     background-image: url("./images/newCollection.PNG");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -171,7 +170,6 @@ ul.headerMenu li a{
 }
 
 .carouselSlider {
-    border: 2px solid red;
     width: auto;
 }
 
