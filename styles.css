@@ -188,15 +188,13 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 .allProducts {
-    border: 5px solid red;
-    min-width: 120px;
-    width: 25%;
-}
-
-.productImg {
-    border: 5px solid blue;
+    margin: auto;
+    border: 3px solid #974AAA;
     width: 80%;
-    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
 }
