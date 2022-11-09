@@ -9,9 +9,6 @@
     h2 {
         font-size: 60px!important;
     }
-    h3  {
-        font-size: 26px!important;
-    }
 }
 
 body {
@@ -25,6 +22,8 @@ a {
 }
 
 /*Here starts the header*/
+
+
 header {
     width: 100%;
     height: 116px;
@@ -121,6 +120,15 @@ h2 {
     justify-content: center;
 }
 
+.carouselSlider {
+    border: 2px solid red;
+    width: auto;
+}
+
+.carouselBox {
+    width: 100%;
+}
+
 /*Here starts the footer*/
 footer {
     background-image: url("./images/bgFooter.png");
@@ -160,41 +168,4 @@ footer {
 .pFooter {
     margin: 0 0 3px 0;
     padding: 0;
-}
-
-/*Here starts the Catalog main*/
-
-h3 {
-    padding: 0;
-    margin: 0;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
-    color: #FFFFFF;
-    -webkit-text-stroke: 0.1px black;
-    paint-order: stroke fill;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-.productsContainer {
-    border: 5px solid black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.allProducts {
-    margin: auto;
-    border: 3px solid #974AAA;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
 }
