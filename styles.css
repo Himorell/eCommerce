@@ -14,8 +14,9 @@
 
 .newCollection{ background-size: contain!important;}
 
-    .newCollectionText {
-        font-size: 55px;
+.newCollectionText {
+        font-size: 55px!important;
+        height: 50%!important;
     }
 }
 
@@ -104,9 +105,10 @@ ul.headerMenu li a{
 
 /*Here starts the index*/
 .newCollection {
+    border: 2px solid red;
     background-image: url("./images/newCollection.PNG");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position-x: center;
     width: 100%;
     height: 380px;
@@ -120,10 +122,12 @@ ul.headerMenu li a{
     padding: 0;
     margin: 0;
     height: fit-content;
-    display: flex;
     font-family: 'Indie Flower', cursive;
     color: white;
-    font-size: 14vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 7vw;
     -webkit-text-stroke: 0.5px black;
     font-weight: bold;
 }
@@ -132,9 +136,9 @@ ul.headerMenu li a{
     font-family: 'Inter';
     font-style: bold;
     font-weight: 700;
-    font-size: 8vw;
+    font-size: 5vw;
     color: white;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.5px black;
     padding: 8px 0 8px 0;
     display: flex;
     justify-content: center;
@@ -164,9 +168,12 @@ ul.headerMenu li a{
     font-family: 'Inter';
     font-style: bold;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 8vw;
     color: white;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.5px black;
+    padding: 8px 0 8px 0;
+    display: flex;
+    justify-content: center;
 }
 
 /*Here starts the footer*/
