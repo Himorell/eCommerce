@@ -1,13 +1,38 @@
 @media only screen and (max-width: 768px) 
     /* For mobile phones: */ {
+
+        html, body {
+            height: 100vh;
+            height: calc(var(--vh, 1vh) * 100);
+          }
+
+
     ul.headerMenu li a{
         font-family: 'Inter';
         font-weight: bold;
         font-size:12px!important;
     }
 
-    h2 {
-        font-size: 60px!important;
+.carouselBox {
+        width: 100%;
+        margin: auto;
+    }
+
+
+.newCollection{ 
+    background-size: 100%!important;
+    height: 190px!important;
+    
+}
+
+.ourCatalog{ 
+    background-size: 100%!important;
+    height: 190px!important;
+}
+
+.newCollectionText {
+        font-size: 55px!important;
+        height: 50%!important;
     }
     h3  {
         font-size: 26px!important;
@@ -104,27 +129,76 @@ ul.headerMenu li a{
     font-size:16px;
 }
 
-h2 {
-    padding: 0;
-    margin: 0;
-    height: fit-content;
-    display: flex;
-    font-family: 'Indie Flower', cursive;
-    color: white;
-    font-size: 100px;
-    -webkit-text-stroke: 0.1px black;
-    font-weight: bold;
-}
-
 /*Here starts the index*/
 .newCollection {
+    border: 2px solid red;
     background-image: url("./images/newCollection.PNG");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100% 100%;
+    background-size: 100%;
+    background-position-x: center;
+    width: 100%;
     height: 380px;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+
+.newCollectionText {
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 7vw;
+    -webkit-text-stroke: 0.5px black;
+    font-weight: bold;
+}
+
+.topSalesText {
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 5vw;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    padding: 8px 0 8px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.carouselSlider {
+    border: 2px solid red;
+    width: auto;
+}
+
+.carouselBox {
+    width: 100%;
+}
+
+.ourCatalog {
+    background-image: url("./images/non-binary-fashion\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalogText {
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 8vw;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    padding: 8px 0 8px 0;
+    display: flex;
     justify-content: center;
 }
 
