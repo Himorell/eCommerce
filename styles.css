@@ -157,17 +157,6 @@ ul.headerMenu li a{
     font-weight: bold;
 }
 
-.topSalesText {
-    font-family: 'Inter';
-    font-style: bold;
-    font-weight: 700;
-    font-size: 5vw;
-    color: white;
-    -webkit-text-stroke: 0.5px black;
-    padding: 8px 0 8px 0;
-    display: flex;
-    justify-content: center;
-}
 
 .carouselSlider {
     width: auto;
@@ -188,17 +177,6 @@ ul.headerMenu li a{
     justify-content: center;
 }
 
-.catalogText {
-    font-family: 'Inter';
-    font-style: bold;
-    font-weight: 700;
-    font-size: 8vw;
-    color: white;
-    -webkit-text-stroke: 0.5px black;
-    padding: 8px 0 8px 0;
-    display: flex;
-    justify-content: center;
-}
 
 /*Here starts the footer*/
 footer {
@@ -244,7 +222,7 @@ footer {
 /*Here starts the Catalog main*/
 
 h3 {
-    padding: 8px 0 8px 0;
+    padding: 10px 0 10px 0!important;
     margin: 0;
     height: fit-content;
     display: flex;
