@@ -12,6 +12,8 @@
     }
 
 
+.newCollection{ background-size: contain!important;}
+
     .newCollectionText {
         font-size: 55px;
     }
@@ -104,14 +106,15 @@ ul.headerMenu li a{
 .newCollection {
     background-image: url("./images/newCollection.PNG");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100% 100%;
-    height: 340px;
-    max-height: 197px;
+    background-size: cover;
+    background-position-x: center;
+    width: 100%;
+    height: 380px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .newCollectionText {
     padding: 0;
@@ -152,7 +155,6 @@ ul.headerMenu li a{
     background-size: 100% 100%;
     width: 100% 100%;
     height: 310px;
-    max-height: ;
     display: flex;
     align-items: center;
     justify-content: center;
