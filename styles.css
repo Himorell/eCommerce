@@ -1,18 +1,34 @@
 @media only screen and (max-width: 768px) 
     /* For mobile phones: */ {
+
+        html, body {
+            height: 100vh;
+            height: calc(var(--vh, 1vh) * 100);
+          }
+
+
     ul.headerMenu li a{
         font-family: 'Inter';
         font-weight: bold;
         font-size:12px!important;
     }
 
-    .carouselBox {
+.carouselBox {
         width: 100%;
         margin: auto;
     }
 
 
-.newCollection{ background-size: contain!important;}
+.newCollection{ 
+    background-size: 100%!important;
+    height: 190px!important;
+    
+}
+
+.ourCatalog{ 
+    background-size: 100%!important;
+    height: 190px!important;
+}
 
 .newCollectionText {
         font-size: 55px!important;
@@ -156,8 +172,8 @@ ul.headerMenu li a{
 .ourCatalog {
     background-image: url("./images/non-binary-fashion\ 2.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100% 100%;
+    background-size: cover;
+    width: 100%;
     height: 310px;
     display: flex;
     align-items: center;
