@@ -4,13 +4,32 @@ This is an e-commerce site where you could purchase our company products.
 
 ## Participants
 
-- [@veronikakoma](https://github.com/VeronikaKoma)
-- [@mintybubblegum](https://github.com/mintybubblegum)
-- [@Himorell](https://github.com/Himorell)
-- [@Uxoa](https://github.com/uxoa)
-- [@Zloln](https://github.com/ZLoln)
+- Veronika Komarova: [@veronikakoma](https://github.com/VeronikaKoma)
+- Noa Trujillo: [@mintybubblegum](https://github.com/mintybubblegum)
+- Himorell Jaramillo: [@Himorell](https://github.com/Himorell)  --Product Owner--
+- Paloma Babot: [@Uxoa](https://github.com/uxoa)
+- Lola Navarro: [@Zloln](https://github.com/ZLoln) --Scrum Master--
 
-## Screenshots
+## Project Demo
+
+For live version of the project run the code with Live Server
+
+![Captura](https://user-images.githubusercontent.com/116545301/201038973-783de7a4-204b-4a63-8aba-c8d9d0d6210d.JPG)
+
+
+
+## Initial Sketch and Designs Screenshots 
+![Captura](https://user-images.githubusercontent.com/116545301/201037111-95bd52bb-0d09-40bc-b3cf-b2192b36461b.JPG)
+![Captura](https://user-images.githubusercontent.com/116545301/201037947-09eeea28-f5b0-4787-9180-0551e9dc671d.JPG)
+
+
+## Final Design and Atomic Design Screenshots 
+
+![Captura](https://user-images.githubusercontent.com/116545301/201038316-465efad8-6b93-4226-b713-607a837ccb38.JPG)
+![Captura](https://user-images.githubusercontent.com/116545301/201040312-dbc31119-950a-4db7-9d90-fa5e4e488aad.JPG)
+
+
+https://www.figma.com/file/ZsvlzIHM1jUbcfUSlTGHFh/Index-Grrrls-Online-Shop-Prototu?node-id=0%3A1&t=Omqod9UFk01SVstB-0
 
 ## Stacks
 
@@ -21,7 +40,8 @@ This is an e-commerce site where you could purchase our company products.
 - Tailwind
 
 ## Test
-
+ Preview with Live Server and using browser inspect
+ 
 ## Methodology
 
 - AGILE with SCRUM
