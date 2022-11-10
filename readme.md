@@ -26,9 +26,10 @@ For live version of the project run the code with Live Server
 ## Final Design and Atomic Design Screenshots 
 
 ![Captura](https://user-images.githubusercontent.com/116545301/201038316-465efad8-6b93-4226-b713-607a837ccb38.JPG)
-![Uploading Captura.JPG…]()
+![Captura](https://user-images.githubusercontent.com/116545301/201040312-dbc31119-950a-4db7-9d90-fa5e4e488aad.JPG)
 
-https://www.figma.com/file/ovgZf3U3xbwB2rDllUAF8s/E-commerce-Proyecto-2?node-id=0%3A1
+
+https://www.figma.com/file/ZsvlzIHM1jUbcfUSlTGHFh/Index-Grrrls-Online-Shop-Prototu?node-id=0%3A1&t=Omqod9UFk01SVstB-0
 
 ## Stacks
 
