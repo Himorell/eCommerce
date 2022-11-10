@@ -4,13 +4,16 @@ This is an e-commerce site where you could purchase our company products.
 
 ## Participants
 
-- [@veronikakoma](https://github.com/VeronikaKoma)
-- [@mintybubblegum](https://github.com/mintybubblegum)
-- [@Himorell](https://github.com/Himorell)
-- [@Uxoa](https://github.com/uxoa)
-- [@Zloln](https://github.com/ZLoln)
+- Veronika Komarova: [@veronikakoma](https://github.com/VeronikaKoma)
+- Noa Trujillo: [@mintybubblegum](https://github.com/mintybubblegum)
+- Himorell Jaramillo: [@Himorell](https://github.com/Himorell)  --Product Owner--
+- Paloma Babot: [@Uxoa](https://github.com/uxoa)
+- Lola Navarro: [@Zloln](https://github.com/ZLoln) --Scrum Master--
 
-## Screenshots
+## Initial Sketch and Designs Screenshots 
+
+
+## Final Design and Atomic Design Screenshots 
 
 ## Stacks
 
@@ -21,7 +24,8 @@ This is an e-commerce site where you could purchase our company products.
 - Tailwind
 
 ## Test
-
+ Preview with Live Server and using browser inspect
+ 
 ## Methodology
 
 - AGILE with SCRUM
