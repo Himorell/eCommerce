@@ -34,6 +34,8 @@
         font-size: 55px!important;
         height: 50%!important;
     }
+
+    
     h3  {
         font-size: 26px!important;
     }
@@ -157,17 +159,6 @@ ul.headerMenu li a{
     font-weight: bold;
 }
 
-.topSalesText {
-    font-family: 'Inter';
-    font-style: bold;
-    font-weight: 700;
-    font-size: 5vw;
-    color: white;
-    -webkit-text-stroke: 0.5px black;
-    padding: 8px 0 8px 0;
-    display: flex;
-    justify-content: center;
-}
 
 .carouselSlider {
     width: auto;
@@ -188,6 +179,7 @@ ul.headerMenu li a{
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .catalogText {
     font-family: 'Inter';
     font-style: bold;
@@ -198,6 +190,8 @@ ul.headerMenu li a{
     display: flex;
     justify-content: center;
 }
+=======
+>>>>>>> catalog
 
 /*Here starts the footer*/
 footer {
@@ -217,6 +211,12 @@ footer {
     justify-content: flex-end;
     font-family: 'Inter';
     font-size: small;
+}
+
+.imgFooter{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .txtFooter a p {
@@ -243,7 +243,7 @@ footer {
 /*Here starts the Catalog main*/
 
 h3 {
-    padding: 8px 0 8px 0;
+    padding: 10px 0 10px 0!important;
     margin: 0;
     height: fit-content;
     display: flex;
@@ -251,8 +251,7 @@ h3 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 5vw;
-    line-height: 39px;
+    font-size: 5vw!important;
     color: #FFFFFF;
     text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
     }
