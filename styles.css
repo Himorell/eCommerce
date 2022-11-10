@@ -200,6 +200,12 @@ footer {
     font-size: small;
 }
 
+.imgFooter{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .txtFooter a p {
     color: white;
 }
