@@ -1,12 +1,12 @@
 
 
 function loadHtmlCatalog(){
-    fetch('../catalog.html')
+    fetch('/eCommerce/catalog.html')
     .then(response=> response.text())
     .then(text=> document.getElementById('homePage').innerHTML = text);
   }
   function loadHtmlProduct(){
-    fetch('../product.html')
+    fetch('/eCommerce/product.html')
     .then(response=> response.text())
     .then(text=> document.getElementById('homePage').innerHTML = text);
   }
