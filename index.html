@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">    
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Index_grrrls Online Shop</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,21 +18,69 @@
             <div class="headerIcons">
                 <img src="./icons/letterIcon.png" alt="letterIcon">
                 <img src="./icons/wishIcon.png" alt="wishList icon">
-                <img class="headerLogo" src="./icons/ig_LogoFinal 4.png" alt="logo icon">    
+                <a href="index.html"><img class="headerLogo" src="./icons/ig_LogoFinal 4.png" alt="logo icon"></a>    
                 <img src="./icons/lensIcon.png" alt="search icon">
                 <img src="./icons/userIcon.png" alt="user icon">
             </div> 
                 <ul class="headerMenu">
-                    <li> <a href="#">CATALOG</a> </li>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="#" onclick="loadHtmlCatalog()">CATALOG</a> </li>
                     <li> <a href="#">TOP SALES</a></li>
                     <li> <a href="#">ABOUT US</a></li>
-                    <li> <a href="#">CONTACT</a></li>
                 </ul>
         </div>
     </header>
-    <footer>
+    <main>
+<div id="homePage">
+
+        <!-- index New Collection -->
+
+        <div class="newCollection">
+            <h2 class="newCollectionText">New Collection</h2>
+        </div>
+
+        <!-- index slider -->
+
+        <div id="carouselExampleControls" class="carousel slide carouselSlider" data-bs-ride="carousel">
+            <div>
+                <h3 class="topSalesText">TOP SALES</h3>
+            </div>
+            <div class="carousel-inner carouselBox">
+                <div class="carousel-item active slide1">
+                    <img src="./images/imgCarousel01.jpg" class="d-block w-100" alt="Psychodelic T-Shirt">
+                </div>
+                <div class="carousel-item slide2">
+                    <img src="./images/imgCarousel02.jpg" class="d-block w-100" alt="Sweat Shirt">
+                </div>
+                <div class="carousel-item slide3">
+                    <img src="./images/imgCarousel03.jpg" class="d-block w-100" alt="Jumpsuit Pack">
+                </div>
+                <button class="carousel-control-prev buttonPrev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true">
+                        <img src="./icons/leftArrow.png" alt="">
+                    </span>
+                </button>
+                <button class="carousel-control-next buttonNext" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">
+                        <img src="./icons/rightArrow.png" alt="">
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- index ourCatalog -->
+
+        <a href="#" onclick="loadHtmlCatalog()">
+        <div class="ourCatalog">
+            <h3 class="catalogText">OUR CATALOG</h3>
+        </div>
+    </a>
+    </div>
+
+    </main>
+        <footer>
         <div class="imgFooter">
-            <img src="./images/icons/homeIcon.png" alt="Home icon">
+            <a href="index.html"><img src="./images/icons/homeIcon.png" alt="Home icon"></a>
             <img src="./images/icons/lensIcon.png" alt="Magnifying glass icon">
         </div>
         <div class="txtFooter">
@@ -42,5 +94,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
